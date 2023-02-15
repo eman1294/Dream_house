@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----fonts----*/
+@font-face {
+    font-family: Roboto;
+    /*body*/
+    src: url(../../vendor/Roboto/Roboto-Regular.ttf);
+}
+
+/*--------*/
+.loading {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    position: fixed;
+    background-color: #f3f3f3;
+
+}
+
+.loader {
+    display: block;
+    position: relative;
+    height: 32px;
+    width: 140px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.loader:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgb(217, 34, 40);
+    animation: ballbns 2s ease-in-out infinite alternate;
+}
+
+@keyframes ballbns {
+    0% {
+        left: 0;
+        transform: translateX(0%);
+    }
+
+    100% {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+}
+
+
+
+body {
+    font-family: Roboto;
+}
+
+/*----navbar----*/
+.navbar-replacment {
+    background-color: rgb(160, 160, 160);
+    box-shadow: 1px 2px 3px #222;
+}
+
+nav .nav-link {
+    font-weight: 200;
+    transition: .5s;
+}
+
+nav a:hover {
+    color: rgb(217, 34, 40) !important;
+}
+
+/*----end_navbar----*/
+.container {
+    width: 120%;
+}
+
+/*----start_header----*/
+
+.header h1 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+    padding-right: 50px;
+    font-size: 55px;
+    font-family: Roboto;
+    font-weight: 600;
+    text-shadow: rgb(0 0 0 / 25%) 0px 1px 3px;
+}
+
+.header p {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    text-shadow: rgb(0 0 0 / 25%) 0px 1px 3px;
+}
+
+.header .search input {
+    position: relative;
+}
+
+.header .search button {
+    z-index: 1;
+    position: absolute;
+    top: 9px;
+    right: 295px;
+    bottom: 0px;
+    height: 35px;
+}
+
+/*----end_header----*/
+/*----start_footer----*/
+footer {
+    background-color: rgb(43, 43, 43);
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+footer .a ul li {
+    list-style: none;
+}
+
+footer .a ul li a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 200;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 200;
+}
+
+footer .a i {
+    color: white;
+    font-size: 35px;
+}
+
+footer .copy {
+    font-size: 10px;
+    text-align: center;
+}
+
+footer .d a {
+    color: rgb(244, 182, 48);
+    font-size: 13px;
+    font-weight: 200;
+}
