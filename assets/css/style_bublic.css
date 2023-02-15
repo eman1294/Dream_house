@@ -80,9 +80,6 @@ nav a:hover {
 }
 
 /*----end_navbar----*/
-.container {
-    width: 120%;
-}
 
 /*----start_header----*/
 
@@ -116,12 +113,16 @@ nav a:hover {
     z-index: 1;
     position: absolute;
     top: 9px;
-    right: 337px;
+    right: 347px;
     bottom: 0px;
     height: 35px;
 }
 
 /*----end_header----*/
+.container {
+    width: 120%;
+}
+
 /*----start_footer----*/
 footer {
     background-color: rgb(43, 43, 43);
@@ -162,4 +163,92 @@ footer .d a {
     color: rgb(244, 182, 48);
     font-size: 13px;
     font-weight: 200;
+}
+
+/*----------------------taplet_screen--------------------------*/
+@media (max-width:991px) {
+    header {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-attachment: local;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    footer .a ul {
+        display: none !important;
+    }
+
+    footer .ti {
+        display: none;
+    }
+
+    .header .search-h button {
+        right: 217px;
+    }
+
+    .header h1 {
+        padding-top: 100px;
+    }
+
+    nav .navbar-brand {
+        width: 30% !important;
+    }
+
+    .help .offers .offers-input::after {
+        left: 716px;
+    }
+}
+
+/*----------------------mobile_screen--------------------------*/
+@media(max-width:757px) {
+    .help .offers .offers-input::after {
+        left: 289px;
+    }
+
+    header {
+        background-position: 100%;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .header form {
+        width: 100% !important;
+    }
+
+    nav .navbar-brand {
+        width: 30% !important;
+    }
+
+    .header .search-h button {
+        right: 23px;
+    }
+
+    footer .a ul {
+        display: none !important;
+    }
+
+    footer .ti {
+        display: none;
+    }
+
+    .contact .form .SP span {
+        font-size: 25px;
+    }
+
+    .header h1 {
+        padding-top: 100px;
+    }
 }

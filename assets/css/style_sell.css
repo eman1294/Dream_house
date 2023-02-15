@@ -1,6 +1,5 @@
-.header {
+header {
     background-image: url(../image/sell-hero-1440.webp);
-    width: 100%;
     background-attachment: fixed;
 }
 /*----------------start_help----------------*/
@@ -10,50 +9,49 @@
 }
 
 
-.help .help-content .ready {
+.help  .ready {
     border: 1px solid rgb(223, 223, 223);
     border-radius: 4px;
     margin-top: 20px;
 }
 
-.help .help-content .ready p {
+.help .ready p {
     padding: 15px;
 }
 
-.help .help-content .offers {
+.help  .offers {
     width: 100%;
     margin-top: 20px;
     border: 1px rgb(223, 223, 223) solid;
     border-radius: 4px;
     text-align: center;
     padding: 20px;
-    height: calc(100% - 24px);
 }
 
-.help .help-content .offers h2,
+.help .offers h2,
 p {
     padding: 10px;
 }
 
-.help .help-content .offers h2 {
+.help .offers h2 {
     font-size: 24px;
 }
 
-.help .help-content .offers button {
+.help  .offers button {
     margin: 20px;
 }
 
-.help .help-content .offers .help-logo {
+.help  .offers .help-logo {
     width: 92px;
     margin: auto;
     padding: 10px;
 }
 
-.help .help-content .offers .help-logo img {
+.help  .offers .help-logo img {
     width: 100%;
 }
 
-.help .help-content .offers button {
+.help  .offers button {
     border: 1px solid rgb(217, 34, 40);
     background-color: #fff;
     color: rgb(217, 34, 40);
@@ -61,7 +59,7 @@ p {
     margin: 10px;
     font-size: 14px;
 }
-.help .help-content .offers .b1{
+.help .offers .b1{
     border: 1px solid rrgb(217, 34, 40);
     background-color: #fff;
     color: rgb(217, 34, 40);
@@ -69,12 +67,12 @@ p {
     margin-top: 32px;
     font-size: 14px; 
 }
-.help .help-content .offers button:hover{
+.help  .offers button:hover{
     background-color:rgb(242, 242, 242);
     color: black;
     border: 0px;
 }
-.help .help-content .offers input{
+.help  .offers input{
     border: 1px solid rgb(160, 160, 160);
     background-color: #fff;
     color: rgb(160, 160, 160);
@@ -84,10 +82,10 @@ p {
     padding: 3px;
    
 }
-.help .help-content .offers .offers-input{
+.help  .offers .offers-input{
     position: relative;
 }
-.help .help-content .offers .offers-input::after{
+.help .offers .offers-input::after{
     content: '\f002';
     position: absolute;
     background-color: rgb(217, 34, 40);
@@ -95,31 +93,31 @@ p {
     width: 26px;
     height: 25px;
     top: 45px;
-    left: 275px;
+    left: 345px;
     font-family: FontAwesome;
     color: #fff;
     font-size: 15px;
     cursor: pointer;
 }
-.help .help-content .offers .offers-input:hover::after{
+.help .offers .offers-input:hover::after{
     background-color:rgb(220, 34, 90)
 }
 
 
-.help .help-content .find {
+.help  .find {
     border: 1px solid rgb(223, 223, 223);
     border-radius: 4px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.help .help-content .find .find-content .find-link {
+.help  .find .find-content .find-link {
     display: flex;
     justify-content: flex-start;
     gap: 30px;
     padding: 20px;
 }
-.help .help-content .find .find-content .find-link button{
+.help .find .find-content .find-link button{
     border: 1px solid rgb(217, 34, 40) red;
     background-color: #fff;
     color: rgb(217, 34, 40);
@@ -128,10 +126,10 @@ p {
     font-size: 14px;
     padding: 7px;
 }
-.help .help-content .find .find-content .find-link .a-f{
+.help .find .find-content .find-link .a-f{
     margin-top: 17px;
 }
-.help .help-content .find .find-content .find-link button:hover{
+.help  .find .find-content .find-link button:hover{
     background-color:rgb(242, 242, 242);
     color: black;
     border: 0px;

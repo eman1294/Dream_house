@@ -1,25 +1,16 @@
 /*------*/
-header{
-    background-image: url(../image/hp-hero-rent-desktop-xl.webp);
-    background-attachment: fixed;
+header {
+  background-image: url(../image/hp-hero-rent-desktop-xl.webp);
+  background-attachment: fixed;
 }
 
 /*------*/
-header{
-    background-image: url(../image/head.webp);
-    background-attachment: fixed;
-}
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
-* {
-  box-sizing: border-box;
-  padding: 0%;
-  margin: 0%;
-}
+
+
 
 body {
-  font-family: "Roboto", sans-serif;
   position: relative;
   background-color: rgb(241 236 236 / 79%);
 }
@@ -28,17 +19,30 @@ section {
   margin-top: 37px;
 }
 
-.home{
+.title-r {
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 4px;
+  margin-top: 20px;
+
+}
+
+.title-r p {
+  padding: 15px;
+}
+
+.home {
   height: 300px;
   border-color: white;
 }
+
 .home:hover {
-    box-shadow: 6px 8px 10px gainsboro;
-  }
+  box-shadow: 6px 8px 10px gainsboro;
+}
+
 .home .homeimg {
   position: relative;
-  height:150px;
-  
+  height: 150px;
+
 }
 
 .new {
@@ -56,10 +60,12 @@ section {
 .home i {
   position: absolute;
   color: rgba(97, 90, 90, 0.555);
-  margin: 125px -310px 4px;
+  top: 112px;
+  left: 16px;
+  font-size: 35px;
 }
 
-.home i:hover {
+.home:hover i {
   color: rgb(236, 60, 60);
 
 }
@@ -83,11 +89,13 @@ section {
 .address {
   margin-top: -17px;
 }
+
 .header-card-section p {
   display: inline;
   color: rgb(124, 122, 122);
   font-weight: 100;
 }
+
 .whatToKnow {
   position: relative;
   display: flex;
@@ -105,6 +113,7 @@ section {
   width: 100%;
   height: 100%;
 }
+
 .whatToKnows p {
   position: absolute;
   right: 28%;
@@ -117,40 +126,46 @@ section {
 .whatToKnows .btn {
   position: absolute;
   bottom: 35%;
-    left: 46%;
+  left: 46%;
   border-radius: 36px;
   padding: 10px 20px;
 }
+
 /* for media query */
 @media screen and (max-width: 991px) {
-    .home:hover {
-      box-shadow: none;
-    }
-    .home i:hover {
-      display: none;
-    
-    }
-    .whatToKnows p {
+  .home:hover {
+    box-shadow: none;
+  }
 
-        font-weight: 500;
-      
-      }
-    .whatToKnows .btn {
-        bottom: 21%;
-        left: 44%;
-      }
-   
+  .home i:hover {
+    display: none;
+
   }
-  @media screen and (max-width: 576px) {
-    .whatToKnows p {
-      font-weight: 500;
-      font-size: 16px;
-      width: 100%;
-      right: 0%;
-    }
-    .whatToKnows .btn {
-      bottom: 9%;
-      left: 36%;
+
+  .whatToKnows p {
+
+    font-weight: 500;
+
   }
-  
+
+  .whatToKnows .btn {
+    bottom: 21%;
+    left: 44%;
   }
+
+}
+
+@media screen and (max-width: 576px) {
+  .whatToKnows p {
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    right: 0%;
+  }
+
+  .whatToKnows .btn {
+    bottom: 9%;
+    left: 36%;
+  }
+
+}

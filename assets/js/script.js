@@ -43,11 +43,11 @@ footer.innerHTML = `        <div class="container-fluid">
     </ul>
 </div>
 <p class="d"><a href="#">Do Not Sell or Share My Personal Information</a></p>
-<p>GET THE APP</p>
+<p class="ti">GET THE APP</p>
 <div class="d-flex">
     <a href="#"><img class="pb-2" src="assets/image/download.png" alt="download"></a>
 </div>
-<p>PRODUCTS</p>
+<p class="ti">PRODUCTS</p>
 <div class="a">
     <ul class="d-flex gap-4">
         <li><a href="#">Leads & Branding</a></li>
@@ -60,7 +60,7 @@ footer.innerHTML = `        <div class="container-fluid">
         <li><a href="#">Builder Solutions</a></li>
     </ul>
 </div>
-<p>NEWS CORP</p>
+<p class="ti">NEWS CORP</p>
 <div class="a">
     <ul class="d-flex gap-4">
         <li><a href="#">Barrons</a></li>
