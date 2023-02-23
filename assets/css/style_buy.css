@@ -52,13 +52,13 @@ section {
   top: 112px;
   left: 16px;
   font-size: 35px;
+  cursor: pointer;
 }
 
 .home:hover i{
   color: rgb(236, 60, 60);
 
 }
-
 .homeType {
   position: relative;
   right: -18px;

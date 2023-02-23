@@ -1,13 +1,13 @@
 // navbar changing color
 // navbar chanhing color
 let navbar = document.getElementById("navbar");
-window.addEventListener("scroll",function(){
-if(window.scrollY > 50 ){
-navbar.classList.replace("bg-transparent","navbar-replacment");
-}
-else if (window.scrollY <= 50 ){
-    navbar.classList.replace("navbar-replacment","bg-transparent");
-}
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 50) {
+        navbar.classList.replace("bg-transparent", "navbar-replacment");
+    }
+    else if (window.scrollY <= 50) {
+        navbar.classList.replace("navbar-replacment", "bg-transparent");
+    }
 });
 //end
 let footer = document.getElementById("footer");
@@ -97,4 +97,4 @@ window.addEventListener("load", function () {
         body.style.overflow = "scroll";
     }, 2500);
 
-})
+});
